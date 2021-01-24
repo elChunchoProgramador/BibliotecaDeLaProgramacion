@@ -1,0 +1,63 @@
+body{
+    background-color: #24292E;
+    color: #D5E4E8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form{
+    background-color: #1F2428; /* color de fondo al formulario */
+    border-radius: 10px; /* borde redondeado a la caja del formulario */
+    border-style: solid; /* estilo del borde del formulario */
+    border-color: #30363d; /* color del borde del formulario */
+    padding: 80px;
+    margin: 0 auto;
+    width: 300px; /* ancho del formulario */
+    font-size: 18px;
+
+}
+
+.caja{
+    padding: 5px;
+    width: 280px;
+}
+
+.caja :focus{
+    border-color: #24292E;
+}
+
+#tituloForm{
+    text-align: center;
+}
+
+.boton{
+    background: #24292E;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #30363d;
+    padding: 10px;
+    width: 300px;
+    
+}
+
+#botonInicio{
+    display: inline-block;
+    margin: 10px;
+    background: #1F2428;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #30363d;
+    padding: 10px;
+    /*width: 40px;*/
+    text-decoration: none;
+}
+
+#botonInicio:hover{ /* cambia el color del elemento cuando el mouse se posiciona encima */
+    background-color: #111; 
+}
+
+#botonInicio:active{ /* cambia el color del elemento cuando es presionado */
+    background-color: #378AD3;
+    color: white;
+}

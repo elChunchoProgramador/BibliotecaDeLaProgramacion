@@ -1,0 +1,12 @@
+Extenisones usadas
+
+Bootstrap v4 Snippets
+Flask Snippets
+flask-Snippets
+Jinja2 Snippets Kit
+
+pip installs
+
+pip install flask
+pip install Flask-MySQL
+pip install jinja2

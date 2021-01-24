@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+<header>
+    <section class="creador">
+        <img src="/static/imagenArticulos/salvaStatuaBlanca.png" alt="Creador" width="80px">
+        <h1 id="tituloBiblioteca"> BIBLIOTECA REAL DE LA PROGRAMACIÓN </h1> <!--Biblioteca real de la programación-->
+    </section>
+
+    <!--Menu de la pagina-->
+    {% include 'rutas/menu.html' %}
+
+    <!--<h1><center>Tutorial con Flask</center></h1>-->
+</header>
+
+<main>
+
+    <section id="seccionPrincipal">
+        <h2>Informacion de Utilidad</h2>
+
+        <p>
+            Este sitio web personal contiene documentacion de distintos lenguajes de programacion y bases de datos. todo
+            traducido al español, es un proyecto a largo plazo. se espera que con el tiempo se introduzcan nuevas
+            tecnologia a la web, si encontraste algun bug o deseas mejorar la redaccion de la documentacion o
+            simplemente deseas contribuir con tu conocimiento, Por favor dirigete a la seccion de contacto y enviame un
+            mensaje, desde ya espero que este sitio te sea de mucha utilidad.
+        </p>
+    </section>
+
+    <br>
+
+    <h1 class="tituloH1">Lenguajes de Programación</h1>
+    <section id="seccion">
+
+        <article class="articulo">
+            <!--Articulo de python-->
+            <h2 class="trabajando">
+                <center>Python</center>
+            </h2>
+
+            <h3>
+                <a href="https://github.com/salvamn/Learn-Python-SalvaMN" target="_blank">Guia Basica</a>
+            </h3>
+            <p>Python es un lenguaje de programacion moderno, sencillo y elegante, tiene una sintaxis muy sencilla y
+                simple de aprender, python a logrado alcanzar gran popularidad entre los desarrolladores de software. Es
+                un lenguaje tan populaar que incluso a logrado superar a los tan amados java, php, y otros. <a
+                        href="/masPython" target="_blank">Mas...</a></p>
+
+            <br>
+
+            <center><img src="/static/imagenArticulos/logoPython.png" alt="Python Cabrones" width="100"></center>
+            <!--<img src="/static/imagenArticulos/djangoLogo.png" alt="Django Cabrones" width="50">
+            <img src="/static/imagenArticulos/flaskLogo.png" alt="Flask Cabrones" width="50">
+            <img src="/static/imagenArticulos/tkinterLogo.png" alt="Tkinter Cabrones" width="50">
+            <img src="/static/imagenArticulos/pygame_logo.gif" alt="Pygame Cabrones" width="50">-->
+
+        </article>
+
+        <article class="articulo">
+            <!--Articulo de java-->
+            <h2 class="noDisponible">
+                <center>Java</center>
+            </h2>
+
+            <h3>
+                <a href="#">Guia Basica</a>
+            </h3>
+
+            <p>Java es un lenguaje de programacion orientado a objetos. con java puedes desarrollar web, aplicaciones
+                moviles, videojuegos, interfaces graficas de usuario, etc. <a href="#">Mas...</a></p>
+
+            <br>
+            <br>
+
+            <center><img src="/static/imagenArticulos/javaLogo.png" alt="Java cabrones" width="150"></center>
+
+
+        </article>
+
+        <article class="articulo">
+            <!--Articulo de javascript-->
+            <h2 class="noDisponible">
+                <center>Javascript</center>
+            </h2>
+
+            <h3><a href="#">Guia Basica</a></h3>
+
+            <p>Javascript un lenguaje orientado a objetos, basado en prototipos, imeperativo y devilmente tipado.
+                javascript es el lenguaje favorito para el desarrollo web ya que todos los navegadores modernos
+                interpretan javascript. <a href="#">Mas...</a></p>
+
+            <br>
+            <br>
+
+            <center><img src="/static/imagenArticulos/javascriptLogo.png" alt="Javascript cabrones" width="100">
+            </center>
+        </article>
+
+        <article class="articulo">
+            <!--Articulo de php-->
+            <h2 class="noDisponible">Php</h2>
+
+            <h3><a href="#">Guia Basica</a></h3>
+
+            <p>Php es el lenguaje que se adapta especialmente al desarrollo web. aun que esta enfocado principalmente a
+                la programacion de scripts del lado del servidor. <a href="#">Mas...</a></p>
+
+            <br>
+            <br>
+            <br>
+
+            <center><img src="/static/imagenArticulos/phpLogo.png" alt="Php cabrones" width="150"></center>
+        </article>
+    </section>
+
+    <section id="seccion">
+        <article class="articulo">
+            <!--Articulo de c#-->
+            <h2 class="noDisponible">
+                <center>C#</center>
+            </h2>
+
+            <h3><a href="#">Guia Basica</a></h3>
+
+            <p>C# es un lenguaje de programacion multiparadigma desarrollado por Microsoft. con c# podemos desarrollar
+                aplicaciones web, aplicaciones de escritorio, aplicaciones moviles, etc. <a href="#">Mas...</a></p>
+
+            <br>
+            <br>
+
+            <center><img src="/static/imagenArticulos/cSharpLogo.png" alt="C# cabrones" width="100"></center>
+        </article>
+    </section>
+
+    <h1 class="tituloH1">Bases de Datos</h1>
+
+    <section id="seccion">
+        <article class="articulo">
+            <h2 class="noDisponible">
+                <center>Sqlite</center>
+            </h2>
+
+            <h3><a href="#">Guia Basica</a></h3>
+
+            <p>SQLite es un sistema de gestion de bases de datos relacional, muy popular y usada comunmente para
+                proyectos pequeños o personales, sqlite esta disponible para muchos lenguajes de programacion: Python,
+                Visual Basic, Php, Java, .Net, etc. <a href="#">Mas...</a></p>
+
+            <center><img src="/static/imagenArticulos/sqliteLogo.png" alt="Sqlite cabrones" width="250"></center>
+        </article>
+
+        <article class="articulo">
+            <h2 class="noDisponible">
+                <center>Sql Server</center>
+            </h2>
+
+            <h3><a href="#">Guia Basica</a></h3>
+
+            <p>Sql server es un sistema de gestion de bases de datos relacionales, desarrollado por Microsoft. la
+                funcion principal de sql server es almacenar y recuperar datos segun lo solicitado por las aplicaciones.
+                <a href="#">Mas...</a></p>
+
+            <br>
+            <br>
+
+            <center><img src="/static/imagenArticulos/sqlServerLogo.png" alt="Sql cabrones" width="150"></center>
+
+        </article>
+
+        <article class="articulo">
+            <h2 class="noDisponible">
+                <center>MySql</center>
+            </h2>
+
+            <h3><a href="#">Guia Basica</a></h3>
+
+            <p>MySql es un sistema de gestion de bases de datos relacional. MySQL sirve para almacenar toda la
+                información que se desee en bases de datos relacionales, como también para administrar todos estos
+                datos. <a href="#">Mas...</a></p>
+
+            <br>
+            <br>
+
+            <center><img src="/static/imagenArticulos/mysqlLogo.png" alt="MySql cabrones" width="150"></center>
+        </article>
+    </section>
+</main>
+
+{% include 'rutas/footer.html' %}
+
+<!--<footer>
+    &copy; Derechos Reservados
+</footer>-->
+
+</body>
+
+</html>

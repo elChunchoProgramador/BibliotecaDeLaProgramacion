@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/masPython.css">
+    <title>{% block title %} Python Recursos {% endblock %}</title>
+</head>
+<body>
+<header>
+    {% include 'rutas/menu.html' %}
+
+    <h1>Python</h1>
+</header>
+
+<main>
+
+    <aside id="menuLateral">
+        <h2>Indice</h2>
+
+        <li><a href="/masPython">Instalar Python</a></li>
+        <li><a href="/instalaride">Instalar IDE</a></li>
+
+        <h3>Python Basico</h3>
+
+        <li><a href="#">Tipos de Datos</a></li>
+        <li><a href="#">Variables</a></li>
+        <li><a href="#">Operadores</a></li>
+        <li><a href="#">Controlando el Flujo</a></li>
+        <li><a href="#">Bucles</a></li>
+        <li><a href="#">Entrada y Salida de Datos</a></li>
+        <li><a href="#">Listas, Tuplas y Diccionarios</a></li>
+        <li><a href="#">Funciones</a></li>
+        <li><a href="#">Manejo de Excepciones</a></li>
+        <li><a href="#">POO</a></li>
+        <li><a href="#">Manejo de Archivos</a></li>
+
+        <h3>Python Intermedio</h3>
+
+        <li><a href="#">Sets</a></li>
+        <li><a href="#">Strings</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Itertools</a></li>
+        <li><a href="#">Lambda functions</a></li>
+        <li><a href="#">Loggins</a></li>
+        <li><a href="#">Json</a></li>
+        <li><a href="#">Random Numbers</a></li>
+        <li><a href="#">Decoradores</a></li>
+        <li><a href="#">Generadores</a></li>
+        <li><a href="#">Threading</a></li>
+        <li><a href="#">Multithreading</a></li>
+        <li><a href="#">Multiprocesing</a></li>
+        <li><a href="#">Function Arguments</a></li>
+        <li><a href="#">The Asterik(*) Operator</a></li>
+        <li><a href="#">Shallow vs Deep Copying</a></li>
+        <li><a href="#">Context Managers</a></li>
+    </aside>
+
+    <article id="articuloPython">
+        <section>
+            {% block articuloPython %}
+
+                <h1>Intalando Python</h1>
+
+                <p>Para instalar python primero tenemos que descargarlo del sitio <a href="https://www.python.org/"
+                                                                                     target="_blank">Oficial</a>,
+                    cuando ya lo tengas descargado procede a ejecutar el instalador.
+
+                    IMPORTANTE: si tienes un sistema operativo de 32 bits descarga el exe correspondiente, si tienes un
+                    sistema operativo de 64 bits descarga el correspondiente.
+
+                    <li>
+                        muy importante selecciona la casilla
+                        <mark>Add Python 3.x to PATH</mark>
+                    </li>
+                    <li>dale click a install Now</li>
+                    <li>permite que esta aplicacion haga cambios al dispositivo</li>
+                    <li>close</li>
+
+                    <br>
+                    <h3>Ahora verificaremos si se instalo correctamente.</h3>
+                    <br>
+
+                    <li>abre una consola de comandos(cmd)</li>
+                    <li>escribe python y dale enter</li>
+                    <li>deberia aparecerte lo siguiente: Python 3.x.x ...</li>
+
+                </p>
+
+                <br>
+
+                <iframe class="yutu" width="95%" height="615" src="https://www.youtube.com/embed/7olu-ZTv5f0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+
+            {% endblock %}
+
+        </section>
+    </article>
+
+</main>
+
+{% include 'rutas/footer.html' %}
+</body>
+</html>

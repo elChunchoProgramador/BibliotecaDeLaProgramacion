@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/formulario.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <!--{% include 'rutas/menu.html' %}-->
+    <a id="botonInicio" href="/">Volver a Inicio</a>
+
+    <form action="/store" method="post" enctype="multipart/form-data">
+
+        <h1 id="tituloForm">Formulario</h1>
+
+        <p>
+            <label for="txtNombre">Nombre</label>
+            <input type="text" name="txtNombre" id="txtNombre" class="caja">
+        </p>
+
+        <p>
+            <label for="txtCorreo">Correo</label>
+            <input type="text" name="txtCorreo" id="txtCorreo" class="caja">
+        </p>
+
+        <p>
+            <label for="txtFoto">Foto</label>
+            <input type="file" name="txtFoto" id="txtFoto" class="caja">
+        </p>
+        
+        <input type="submit" value="Agregar" class="boton">
+    </form>
+</body>
+</html>

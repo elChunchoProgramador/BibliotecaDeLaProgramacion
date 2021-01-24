@@ -1,0 +1,30 @@
+#cajaMenu{
+    display: block;
+    position: static;
+    background: #1f2428;
+    background: -webkit-linear-gradient(top, transparent,#1f2428);
+    /*padding: 20px;*/
+    padding-left: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.menuPagina{
+    display:table-cell;
+    padding: 15px;
+    /*margin: 5px;*/
+    text-align: center;
+    background: #1f2428;
+    color: white; /*#dddddd*/
+    text-decoration: none;
+    background: -webkit-linear-gradient(top, transparent,#16191c);
+}
+
+.menuPagina:hover{
+    background-color: #111;
+}
+
+.menuPagina:active{
+    background-color: #378AD3;
+    color: white;
+}

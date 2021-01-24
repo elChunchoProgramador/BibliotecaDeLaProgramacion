@@ -1,0 +1,19 @@
+footer{
+    display: inline;
+    /*background: #1f2428;*/
+    background: -webkit-linear-gradient(top, transparent,#1f2428); /* gradiante traslucido */
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 96%;
+    position: absolute;
+
+}
+
+.imagenIcono{
+    float: left;
+    width: 100px;
+    padding-top: 20px;
+    
+}

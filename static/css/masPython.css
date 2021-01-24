@@ -1,0 +1,136 @@
+body{
+    /*background-color: white;*/
+    background-image: url("/static/imagenArticulos/imgFondo/bi4.jpg");
+    backdrop-filter: blur(4px);
+    background-position: center;
+    background-size: cover;
+    color: white; /*D5E4E8*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar { /* personalizando el scroollbar */
+    width: 7px;
+    background: #1f2428;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #a57a50; /*#a57a50 #3799e9*/
+}
+
+main{
+    display: flex;
+}
+
+h1, h3, p
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#menuLateral{
+    position: static;
+    /*display: inline-grid;*/
+    /*display: grid;
+    position: static;*/
+    background: -webkit-linear-gradient(top, transparent,#1f2428);
+    border: 2px solid #1f2428; 
+    border-radius: 4px;
+    width: 15%;
+    height:100%;
+    padding: 20px;
+    
+   
+}
+
+#menuLateral li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+#menuLateral a{
+    padding-bottom: 5px;
+    color: #3799e9; /*#ff6262*/
+}
+
+#menuLateral a:hover{
+    color:  #ff6262;
+}
+
+#articuloPython{
+    /*display: inline-block;*/
+    position: static;
+    background: -webkit-linear-gradient(top, #1d2023d6  50% ,#1f2428);
+    /*background-color: #1D2024;*/
+    padding-left: 20px;
+    margin-bottom: auto;
+    margin-left: 20px;
+    overflow-y: scroll; /* mostramos barra de desplazamiento del eje y */
+    width: 78%;
+    height: 88%;
+}
+
+#articuloPython section li{
+    margin-left: 40px;
+}
+
+#articuloPython section iframe{
+    margin-bottom: 40px;
+}
+
+#articuloPython::-webkit-scrollbar{ /* personalizando el scroollbar */
+    width: 7px;
+
+}
+
+#articuloPython::-webkit-scrollbar-thumb{
+    background: #a57a50;
+}
+
+.yutu{
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #3799e9;
+    font-weight: bold;
+}
+
+footer{
+    padding-top: 80px;
+}
+
+
+/*
+.seccion{
+    background: #1f2428;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.articulo{
+    background-color:  #24292E;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    width: 95%;
+}
+
+.h3Pasos{
+    text-decoration: underline;
+}
+
+.cajaDeImagenes{
+    display: table;
+    width: 450px;
+    
+}
+
+
+*/
